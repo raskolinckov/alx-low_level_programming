@@ -5,43 +5,29 @@
  * Numbers must be coma and space separated.
  * Return: 0
  */
-
 int main(void)
+{
 	int count = 2;
 	int i = 1, j = 2;
 	int k;
-	printf("%lu, ", i);
 
+	printf("%lu, ", i);
 	while (count <= 50)
-		{
+	{
 		if (count == 50)
 		{
-	 	printf("%lu\n", j);
-	 
-	}
-      
-      else
-	
-	{
-	  
-	  printf("%lu, ", j);
-	  
-	}
-      
+			printf("%lu\n", j);
+		}
+		else
+		{
+			printf("%lu, ", j);
+		}
 
-      
-      k = j;
-      
-      j += i;
-      
-      i = k;
-      
-      count++;
-      
-    }
-  
+		k = j;
+		j += i;
+		i = k;
+		count++;
+	}
 
-  
-  return (0);
-  
+	return (0);
 }
