@@ -2,21 +2,22 @@
 /**
  * *_strcat - appends the src string to the dest string
  *
- * @dest: char to check
+ * @dest: char to che
  * @src: char to check
  * Description: This will append the src string to the dest string
  * Return: a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
 {
-  int i, j;
+	int i, j;
 
-  for (i = 0; dest[i] != '\0'; i++)
-    {
-    }
-  for (j = 0; src[j] != '\0'; j++, i++)
-    {
-      dest[i] = src[j];
-    }
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+	}
+	for (j = 0; src[j] != '\0'; j++, i++)
+	{
+		dest[i] = src[j];
+	}
 
-  return (dest)
+	return (dest);
+}
